@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(59, 201, 236, 0.3),rgba(11, 175, 204, 0.3)),url(https://unsplash.it/1365/653/?nature&grayscale&blur=4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-wraper{
+    width: 460px;
+    height: 380px;
+    margin: 0 10px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    color:white;
+}
+.title h2{
+    background: linear-gradient(90deg, #2cb1e0, #ae2c3d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 42px;
+    font-weight: 500;
+}
+.quote-body{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 0 35px 68px 0 rgba(67, 175, 224, 0.2), inset 0 -8px 16px 0 #0de5f5;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.quote-body .icon-quote{
+    text-align: center;
+    font-size: 19px;
+    color: #22313f;
+    height: 42px;
+    overflow: auto;
+    margin-top: 18px;
+}
+.quote-body .icon-quote .quote{
+    font-family: 'Lobster', cursive;
+}
+.quote-body .icon-quote .icon{
+    margin-top: 5px;
+}
+.quote-body .icon-quote .fa-solid{
+    font-size: 20px;
+}
+.quote-body .author{
+    text-align: right;
+    margin-top: 15px;
+    font-family: 'Lobster', cursive;
+}
+.quote-body .quote-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding: 7px 0;
+}
+.quote-body .quote-buttons .social a{
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 27px;
+    margin-left: 25px;
+    color: #455261;
+    transition: .3s ease;
+
+}
+.quote-body .quote-buttons .social a:hover{
+    color: #5ed3f0;
+}
+.quote-body .quote-buttons .btn button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+.quote-body .quote-buttons .btn button:hover{
+    background-color: #30c6e0;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #c7cedb;
+}
